@@ -1,0 +1,25 @@
++ umask 022
++ cd /root/my-project/stxxl/build/_CPack_Packages/Linux/RPM/BUILD
++ mv /root/my-project/stxxl/build/_CPack_Packages/Linux/RPM/stxxl-1.4.99-Linux /root/my-project/stxxl/build/_CPack_Packages/Linux/RPM/tmpBBroot
++ exit 0
++ umask 022
++ cd /root/my-project/stxxl/build/_CPack_Packages/Linux/RPM/BUILD
++ '[' /root/my-project/stxxl/build/_CPack_Packages/Linux/RPM/stxxl-1.4.99-Linux '!=' / ']'
++ rm -rf /root/my-project/stxxl/build/_CPack_Packages/Linux/RPM/stxxl-1.4.99-Linux
+++ dirname /root/my-project/stxxl/build/_CPack_Packages/Linux/RPM/stxxl-1.4.99-Linux
++ mkdir -p /root/my-project/stxxl/build/_CPack_Packages/Linux/RPM
++ mkdir /root/my-project/stxxl/build/_CPack_Packages/Linux/RPM/stxxl-1.4.99-Linux
++ '[' -e /root/my-project/stxxl/build/_CPack_Packages/Linux/RPM/stxxl-1.4.99-Linux ']'
++ rm -rf /root/my-project/stxxl/build/_CPack_Packages/Linux/RPM/stxxl-1.4.99-Linux
++ mv /root/my-project/stxxl/build/_CPack_Packages/Linux/RPM/tmpBBroot /root/my-project/stxxl/build/_CPack_Packages/Linux/RPM/stxxl-1.4.99-Linux
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-compress
++ /usr/lib/rpm/redhat/brp-strip /usr/bin/strip
++ /usr/lib/rpm/redhat/brp-strip-comment-note /usr/bin/strip /usr/bin/objdump
++ /usr/lib/rpm/redhat/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/brp-python-bytecompile /usr/bin/python 1
++ /usr/lib/rpm/redhat/brp-python-hardlink
++ /usr/lib/rpm/redhat/brp-java-repack-jars
++ umask 022
++ cd /root/my-project/stxxl/build/_CPack_Packages/Linux/RPM/BUILD
++ exit 0
